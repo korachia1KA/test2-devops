@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini Todo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="card">
+    <img class="banner" src="https://picsum.photos/seed/mini-todo/800/300" alt="Image de bannière" loading="lazy">
+    <h1>Mes tâches</h1>
+    <form id="form">
+      <input id="input" type="text" placeholder="Nouvelle tâche…" autocomplete="off" required>
+      <button type="submit">Ajouter</button>
+    </form>
+    <ul id="list"></ul>
+    <p id="count" class="count"></p>
+    <button id="theme" class="ghost">Changer de thème</button>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
